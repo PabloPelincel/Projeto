@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+#header {
+    width: 100%;
+}
+
+#main {
+    flex: 1;
+}
+
+#main > .row, #main-menu {
+    height: 1000%;
+}
+
+#main > .row {
+    margin-right: 0;
+}
+
+#main-menu .nav-link {
+    color: #fff;
+}
